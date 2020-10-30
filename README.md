@@ -1,1 +1,2 @@
-# cafeteria_univalle_hw
+# Cafeteria Univalle
+This is our final project for Web Programming :)
