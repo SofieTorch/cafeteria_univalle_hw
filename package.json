@@ -1,0 +1,26 @@
+{
+  "name": "cafeteria_univalle_hw",
+  "version": "1.0.0",
+  "description": "This is our final project for Web Programming :)",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofieTorch/cafeteria_univalle_hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofieTorch/cafeteria_univalle_hw/issues"
+  },
+  "homepage": "https://github.com/SofieTorch/cafeteria_univalle_hw#readme"
+}
