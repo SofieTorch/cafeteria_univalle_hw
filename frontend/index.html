@@ -7,6 +7,11 @@
          <!-- AngularJS -->
          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+         <!-- IE required polyfills, in this exact order -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.33.3/es6-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.20/system-polyfills.js"></script>
+        <script src="https://unpkg.com/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
  
          <!-- FontAwesome -->
          <script src="https://use.fontawesome.com/157c35b7c1.js"></script>
@@ -18,11 +23,18 @@
  
          <!-- App -->
          <link rel="stylesheet" href="style.css">
+         
          <script src="app.js"></script>
+         <script src="./components/navbar/navbar.component.js"></script>
+         <script src="./components/product-card/product-card.component.js"></script>
+         <script src="./pages/cafeteria/home/cafeteria-home.controller.js"></script>
+         <script src="./pages/home/home.controller.js"></script>
 
         <title>Cafeteria Univalle</title>
     </head>
-    <body>
+    <body ng-app="app">
         
+        <div ng-view></div>
+
     </body>
 </html>
