@@ -2,3 +2,5 @@
 # dependencies
 /node_modules
 
+# frontend dependencies
+/frontend/node_modules
