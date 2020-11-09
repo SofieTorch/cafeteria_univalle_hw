@@ -12,6 +12,10 @@
     font-size: 64pt;
 }
 
+#home-title {
+    color: #1a1a1a
+}
+
 .parent-home {
     height: 40vh;
     width: 90%;
@@ -86,8 +90,355 @@
     height: 200px;
 }
 
-.card:hover {
+/* end card */
+
+
+/* log in */
+
+#bodyv {
+    height: 100vh;
+    background: #2e1a06 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.titlev {
+    margin-bottom: 2rem;
+}
+
+.imge-left{
+    width: 45%;
+    background: url('./assets/images/imagenRegistro.jpg') center;
+    background-size:cover ;
+}
+
+.img-left{
+    width: 45%;
+    background: url('./assets/images/registrarse.jpg') center;
+    background-size:cover ;
+}
+
+.card-body{
+    padding: 2rem;
+}
+
+.form-input {
+    position: relative;
+}
+ 
+.form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom:20px ;
+    box-sizing: border-box;
+    box-shadow: none;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+}
+
+.form-input span{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #007bff;
+}
+
+.form-input input::placeholder{
+    color: black;
+    padding-left: 0px;
+}
+
+.form-input input:focus::placeholder{
+    color: #454b69;
+
+}
+
+.form-box button[type="submit"]{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #007bff;
+    color: #fff;
+    font-weight: bold;
+    transform: 0.5s;
+    padding: 12px;
+}
+
+.form-box button[type="submit"]:hover{
+    background: #0069d9;
+}
+
+.forget-link, .register-link{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.forget-link:hover, .register-link:hover{
+    color:#0069d9;
+    text-decoration: none;
+
+}
+.forget-link, .login-link{
+    color: #007bff;
+    font-weight: bold;
+}
+
+.forget-link:hover, .login-link:hover{
+    color:#0069d9;
+    text-decoration: none;
+
+}
+
+.form-box .btn-social{
+    color: white !important;
+    border:0;
+    font-weight: bold;
+}
+
+.form-box .btn-google{
+    background: #da3f34;
+    margin-right: 120px;
+}
+.form-box .btn-univalle{
+    background: #b1253c;
+}
+
+
+.form-box .btn-google:hover{
+    background: #bf3b31;
+}
+.form-box .btn-univalle:hover{
+    background: #81182a;
+}
+
+/* end log in */
+
+
+/* reservas Niky */
+
+i{
+    color: white;
+}
+#bodyn{
+    /*background-image: url(seamless-pattern-coffee-icons_1085-946\ \(1\).jpg);*/
+    background-image: url(./assets/images/15489.jpg);
+    font-family: 'Montserrat';
+}
+.reservas{
+    background-color:  rgba(214, 214, 214, 0.753);
+    border-radius: 8px;
+}
+
+nav{
+    height: 80px;
+    background-color: #080808;
     
 }
 
-/* end card */
+#Divproducto{
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    background-color: rgba(214, 214, 214, 0.753);
+}
+#cont{
+    width: 35px;
+    text-align: center;
+    
+}
+#subtotal{
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    height: 80px;
+    background-color: rgba(214, 214, 214, 0.753);
+}
+#NamPr{
+    color: #1A1A1A;
+    font-size: 21px;
+    font-weight: bold;
+}
+#eliminar{
+    width: 100%;
+}
+#btn-group{
+    text-align: center;
+}
+#eliminarReservas{
+    width: 310px;
+}
+#total{
+    font-size: 25px;
+    color: white;
+}
+hr{
+    size: 15px;
+}
+h1{
+    color: white;
+}
+
+/* end reservas Niky */
+
+
+/* inicio sesion Niky */
+
+#bodyNis{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.izquierda{
+    background-color: #2e1a06;
+    height: 100vh;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+#flecha{
+    width: 50%;
+    margin-left: 50px;
+}
+#form{
+    color: rgb(190, 190, 190);
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+
+#btnSesion{
+    width: 100%;
+}
+
+.derecha{
+    background-image: url(https://images.pexels.com/photos/2575835/pexels-photo-2575835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+
+#caf {
+    font-size: 85px;
+    margin-top: 120px;
+    margin-right: 90px;
+    width: 50%;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#pantalla-dividida{
+    display: flex;
+
+}
+.inicio{
+    
+    color: white;
+    font-size: 30px;
+    
+}
+#inicio{
+    margin-top: 100px;
+}
+#camp{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+#omitir{
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+a:hover {
+    color:#ffffff; 
+    font-weight: bold;
+}
+
+/* end inicio sesion Niky */
+
+
+/* Pendientes Ale */
+
+i{
+    color: white;
+}
+#bodyA{
+    /*background-image: url(seamless-pattern-coffee-icons_1085-946\ \(1\).jpg);*/
+    background-image: url(./assets/images/15489.jpg);
+    font-family: 'Montserrat';
+}
+.reservas{
+    background-color:  rgba(214, 214, 214, 0.753);
+    border-radius: 8px;
+}
+nav{
+    height: 80px;
+    background-color: #080808;
+    
+}
+
+#Divproducto{
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    background-color: rgba(214, 214, 214, 0.753);
+}
+#cont{
+    width: 35px;
+    text-align: center;
+    
+}
+#subtotal{
+    border: solid;
+    border-color: rgb(177, 177, 177);
+    border-radius: 8px;
+    height: 80px;
+    background-color: rgba(214, 214, 214, 0.753);
+}
+#NamPr{
+    color: #1A1A1A;
+    font-size: 21px;
+    font-weight: bold;
+}
+#eliminar{
+    width: 100%;
+}
+#btn-group{
+    text-align: center;
+}
+#eliminarReservas{
+    width: 310px;
+}
+#total{
+    font-size: 25px;
+    color: white;
+}
+hr{
+    size: 15px;
+}
+h1{
+    color: white;
+}
+
+/* end pendientes ale */
+
+

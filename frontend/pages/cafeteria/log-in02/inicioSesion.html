@@ -1,0 +1,58 @@
+<div id="bodyNis">
+    <section id="pantalla-dividida">
+        <div class="izquierda">
+            <label id="inicio" class="inicio">Inicio de Sesion</label>
+            <br/>
+
+            <div id="form">
+                <form>
+                    <div>
+                        <label for="txtTipoSesion" class="form-label">Iniciar sesion mediante:</label>
+                        <select name="tipoSesion" id="txtTipoSesion" 
+                            class="form-control" 
+                            type="text"  
+                            required>
+                            <option value="Codigo Institucional">Codigo Institucional</option>
+                            <option value="Correo Electronico">Correo Electronico</option>    
+                        </select><br/>
+                    </div>
+                    <div>
+                        <label for="txtCodigo" class="form-label">Codigo de estudiante:</label>
+                        <input id="txtCodigo" name="tipoSesion" 
+                            class="form-control" 
+                            type="text" required/><br/>
+                    </div>
+                    <div>
+                        <label for="txtContrasenia" class="form-label">Contraseña:</label>
+                        <input id="txtContrasenia" name="tipoSesion" 
+                            class="form-control" 
+                            type="password" required/><br/>
+                    </div>
+                    <div>
+                        <input type="submit" id="btnSesion" class="btn mt-4 btn-outline-light" value="Iniciar Sesion" />
+        
+                    </div>
+                    
+                </form>
+                <label>Aun no tienes una cuenta? <a href="">Registrate!</a></label>
+                <br/>
+                <div id="omitir">
+                    <a href="">Omitir este paso</a>
+                </div>
+            </div>
+            <br/>
+            
+        </div>
+        <div class="derecha">
+            <label id="caf" class="text-light">Cafeteria Univalle</label>
+            <label id="camp">Campus Tiquipaya</label>
+            <br/>
+            <button type="button" id="flecha" class="btn btn-outline-light">
+                <i class="fas fa-long-arrow-alt-right fa-4x"></i>
+            </button>
+
+        </div>
+        
+    </section>
+    </div>
+</div>
